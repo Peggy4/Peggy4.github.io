@@ -1,0 +1,85 @@
+html {
+	height: 100%;
+}
+
+h1 {
+	font-family: "comic sans MS", ariel, sans-serif;
+	color: navy;
+	background-color: #F3E2A9;
+	text-align: center;
+}
+
+body {
+	font-family:serif;
+	font-size: 18px;
+	color: navy;
+	background-color: #F3E2A9;
+	margin: 0px;
+	padding: 20px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 400px;
+	border-left: 400px;
+	border-style: solid;
+	border-color: black;
+	min-height: 100%;
+}
+
+h2 {
+	font-family: "comic sans MS", ariel,sans-serif;
+	color: navy
+}
+h3 {
+	font-family: "comic sans MS", ariel,sans-serif;
+	color: navy;
+}
+
+p:first-letter{
+	font-weight: bolder;
+}
+
+nav {
+	width:100%;
+	height: 50px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+nav li{
+	display: inline;
+	font-family: "comic sans MS", ariel, sans-serif;
+}
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	width: 300px;
+	padding: 7px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #DBBE94;
+	color: black;
+}
+nav ul li a:hover{
+	background-color: #BEC7D0;
+}
+
+img {
+	border: 8px ridge white;
+	position: relative;
+	left: 150px;
+	margin: 10px;
+}
+
+.link{
+	color: #5601C8;
+}
+.page{
+	color: #0101CB;
+}
+#eventsSentence{
+	font-size: 16pt;
+	text-align: center;
+}
